@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "588583972801",
+    "project_id": "avoura-6254f",
+    "storage_bucket": "avoura-6254f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588583972801:android:900a9e9342cd49fccac940",
+        "android_client_info": {
+          "package_name": "com.example.avoura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588583972801-or1vbmqn0cbbphvci2su016409j913mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avoura",
+            "certificate_hash": "e1ec0768e191f1c2d2142eed542b96a3ff30e3b6"
+          }
+        },
+        {
+          "client_id": "588583972801-ffmevejfl2eibnvd61up96147c0kreps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0VeOyvpuwG0rtegWXMPHC-b-LiMLOUdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588583972801-ffmevejfl2eibnvd61up96147c0kreps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
