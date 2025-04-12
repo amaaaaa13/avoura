@@ -1,16 +1,63 @@
-# avoura
+# Avoura App – Final Features
 
-A new Flutter project.
+Framework: Flutter
+Architecture: BLoC + MVVM
+Backend: Firebase (Firestore + Auth)
 
-## Getting Started
+Authentication
+Login using email and password
 
-This project is a starting point for a Flutter application.
+Sign up using email and password
 
-A few resources to get you started if this is your first Flutter project:
+Login/Sign up using Google
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Logout functionality
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Architecture & File Structure
+MVVM (Model-View-ViewModel) pattern
+
+BLoC state management throughout
+
+Organized folder structure:
+
+core/ – shared services and utilities
+
+models/ – data models
+
+viewmodels/ – BLoC logic and events/states
+
+views/ – UI: screens and widgets
+
+Firestore Features
+Create data (e.g., contact, note, entry)
+
+Read data (using Firestore stream)
+
+Update data
+
+Delete data
+
+Search functionality using Firestore query filtering
+
+Form Validation
+Login and Sign Up form validation
+
+Field-level validation (e.g., email format, password length)
+
+Error messages for invalid inputs
+
+Phone Call Integration
+Uses flutter_phone_direct_caller to directly call phone numbers
+
+Permission handling via permission_handler
+
+Requests Permission.phone at runtime before calling
+
+Additional UX Features
+Snackbar for success and error messages
+
+Loading indicators for async operations
+
+Responsive UI layout
+
+Clean, user-friendly design
